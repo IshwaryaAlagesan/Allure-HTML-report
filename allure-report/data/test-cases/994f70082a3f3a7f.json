@@ -1,0 +1,79 @@
+{
+  "uid" : "994f70082a3f3a7f",
+  "name" : "Verify User able to update existing record - successful call - STATUS",
+  "fullName" : "Put API Feature Testing:.Verify User able to update existing record - successful call - STATUS",
+  "historyId" : "a546ff015ec71dd2f7c58a756952d090",
+  "time" : {
+    "start" : 1578652801600,
+    "stop" : 1578652801714,
+    "duration" : 114
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Status code actual value 204 is not matching with Expected value 200. Please check the Service.",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Status code actual value 204 is not matching with Expected value 200. Please check the Service.\n                    at Test.Scenario (/home/gk-ubuntu19/Documents/test/Ishu-APITest/tests/put_test.js:9:12)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Status code actual value 204 is not matching with Expected value 200. Please check the Service.",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Status code actual value 204 is not matching with Expected value 200. Please check the Service.\n                    at Test.Scenario (/home/gk-ubuntu19/Documents/test/Ishu-APITest/tests/put_test.js:9:12)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "I send put request \"/product/3\", {\"price\":10}",
+      "time" : {
+        "start" : 1578652801601,
+        "stop" : 1578652801714,
+        "duration" : 113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Put API Feature Testing:"
+  }, {
+    "name" : "testClass",
+    "value" : "Put API Feature Testing:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify User able to update existing record - successful call - STATUS"
+  }, {
+    "name" : "package",
+    "value" : "Put API Feature Testing:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "994f70082a3f3a7f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,71 @@
+{
+  "uid" : "c3ae4032a1e430df",
+  "name" : "Verify a getting a single product successful call - BODY",
+  "fullName" : "Get API Feature Testing:.Verify a getting a single product successful call - BODY",
+  "historyId" : "8129568b89a309f9a526aeda8cfc07cb",
+  "time" : {
+    "start" : 1578652801459,
+    "stop" : 1578652801466,
+    "duration" : 7
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send get request \"/product/1\"",
+      "time" : {
+        "start" : 1578652801460,
+        "stop" : 1578652801466,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Get API Feature Testing:"
+  }, {
+    "name" : "testClass",
+    "value" : "Get API Feature Testing:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify a getting a single product successful call - BODY"
+  }, {
+    "name" : "package",
+    "value" : "Get API Feature Testing:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c3ae4032a1e430df.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,71 @@
+{
+  "uid" : "477075808585b2ba",
+  "name" : "Verify getting All Products successful call - STATUS",
+  "fullName" : "Get All API Feature Testing:.Verify getting All Products successful call - STATUS",
+  "historyId" : "621cfff1b5f053f2cc32aa9e88ed0d0d",
+  "time" : {
+    "start" : 1578652801444,
+    "stop" : 1578652801449,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send get request \"/products\"",
+      "time" : {
+        "start" : 1578652801444,
+        "stop" : 1578652801449,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Get All API Feature Testing:"
+  }, {
+    "name" : "testClass",
+    "value" : "Get All API Feature Testing:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify getting All Products successful call - STATUS"
+  }, {
+    "name" : "package",
+    "value" : "Get All API Feature Testing:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "477075808585b2ba.json",
+  "parameterValues" : [ ]
+}

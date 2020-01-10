@@ -1,0 +1,79 @@
+{
+  "uid" : "bfbd3676218eb3e",
+  "name" : "Verify a getting a single product successful call - STATUS",
+  "fullName" : "Get API Feature Testing:.Verify a getting a single product successful call - STATUS",
+  "historyId" : "e19c1f11932812b67013428d5891db45",
+  "time" : {
+    "start" : 1578652801451,
+    "stop" : 1578652801458,
+    "duration" : 7
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Status code actual value 404 is not matching with Expected value 200. Please check the Service.",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Status code actual value 404 is not matching with Expected value 200. Please check the Service.\n                    at Test.Scenario (/home/gk-ubuntu19/Documents/test/Ishu-APITest/tests/get_test.js:10:12)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Status code actual value 404 is not matching with Expected value 200. Please check the Service.",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Status code actual value 404 is not matching with Expected value 200. Please check the Service.\n                    at Test.Scenario (/home/gk-ubuntu19/Documents/test/Ishu-APITest/tests/get_test.js:10:12)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "I send get request \"/product/2\"",
+      "time" : {
+        "start" : 1578652801452,
+        "stop" : 1578652801458,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Get API Feature Testing:"
+  }, {
+    "name" : "testClass",
+    "value" : "Get API Feature Testing:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify a getting a single product successful call - STATUS"
+  }, {
+    "name" : "package",
+    "value" : "Get API Feature Testing:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "bfbd3676218eb3e.json",
+  "parameterValues" : [ ]
+}

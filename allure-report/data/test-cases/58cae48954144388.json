@@ -1,0 +1,79 @@
+{
+  "uid" : "58cae48954144388",
+  "name" : "Verify a deleting the entry successful call - STATUS",
+  "fullName" : "Delete API Feature Testing:.Verify a deleting the entry successful call - STATUS",
+  "historyId" : "c7de166c027b1ac2e7384ba2320254c9",
+  "time" : {
+    "start" : 1578652801261,
+    "stop" : 1578652801417,
+    "duration" : 156
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Status code actual value 204 is not matching with Expected value 200. Please check the Service.",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Status code actual value 204 is not matching with Expected value 200. Please check the Service.\n                    at Test.Scenario (/home/gk-ubuntu19/Documents/test/Ishu-APITest/tests/delete_test.js:9:12)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Status code actual value 204 is not matching with Expected value 200. Please check the Service.",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Status code actual value 204 is not matching with Expected value 200. Please check the Service.\n                    at Test.Scenario (/home/gk-ubuntu19/Documents/test/Ishu-APITest/tests/delete_test.js:9:12)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "I send delete request \"/product/2\"",
+      "time" : {
+        "start" : 1578652801265,
+        "stop" : 1578652801414,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Delete API Feature Testing:"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete API Feature Testing:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify a deleting the entry successful call - STATUS"
+  }, {
+    "name" : "package",
+    "value" : "Delete API Feature Testing:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "58cae48954144388.json",
+  "parameterValues" : [ ]
+}

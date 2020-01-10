@@ -1,0 +1,71 @@
+{
+  "uid" : "ea9e9f7c4ba69475",
+  "name" : "Verify a GET a single product unsuccessful call - STATUS",
+  "fullName" : "Get API Feature Testing:.Verify a GET a single product unsuccessful call - STATUS",
+  "historyId" : "24518eee7ec2dd66739a9dfb03ba9f5f",
+  "time" : {
+    "start" : 1578652801467,
+    "stop" : 1578652801473,
+    "duration" : 6
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send get request \"/product/10\"",
+      "time" : {
+        "start" : 1578652801467,
+        "stop" : 1578652801473,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Get API Feature Testing:"
+  }, {
+    "name" : "testClass",
+    "value" : "Get API Feature Testing:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify a GET a single product unsuccessful call - STATUS"
+  }, {
+    "name" : "package",
+    "value" : "Get API Feature Testing:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ea9e9f7c4ba69475.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,71 @@
+{
+  "uid" : "7bd6819e7fa086d4",
+  "name" : "Verify User NOT able to update existing record - unsuccessful call - STATUS",
+  "fullName" : "Put API Feature Testing:.Verify User NOT able to update existing record - unsuccessful call - STATUS",
+  "historyId" : "5ac23ab6439871c1768279e0272e8304",
+  "time" : {
+    "start" : 1578652801715,
+    "stop" : 1578652801721,
+    "duration" : 6
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send put request \"/product/10\", {\"price\":10}",
+      "time" : {
+        "start" : 1578652801716,
+        "stop" : 1578652801721,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Put API Feature Testing:"
+  }, {
+    "name" : "testClass",
+    "value" : "Put API Feature Testing:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify User NOT able to update existing record - unsuccessful call - STATUS"
+  }, {
+    "name" : "package",
+    "value" : "Put API Feature Testing:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7bd6819e7fa086d4.json",
+  "parameterValues" : [ ]
+}

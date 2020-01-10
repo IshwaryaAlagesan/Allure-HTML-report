@@ -1,0 +1,101 @@
+[ {
+  "uid" : "58cae48954144388",
+  "name" : "Verify a deleting the entry successful call - STATUS",
+  "time" : {
+    "start" : 1578652801261,
+    "stop" : 1578652801417,
+    "duration" : 156
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b14d39f441108e08",
+  "name" : "Verify a User could not add unsuccessful call - STATUS",
+  "time" : {
+    "start" : 1578652801593,
+    "stop" : 1578652801598,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7bd6819e7fa086d4",
+  "name" : "Verify User NOT able to update existing record - unsuccessful call - STATUS",
+  "time" : {
+    "start" : 1578652801715,
+    "stop" : 1578652801721,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea9e9f7c4ba69475",
+  "name" : "Verify a GET a single product unsuccessful call - STATUS",
+  "time" : {
+    "start" : 1578652801467,
+    "stop" : 1578652801473,
+    "duration" : 6
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c3ae4032a1e430df",
+  "name" : "Verify a getting a single product successful call - BODY",
+  "time" : {
+    "start" : 1578652801459,
+    "stop" : 1578652801466,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "994f70082a3f3a7f",
+  "name" : "Verify User able to update existing record - successful call - STATUS",
+  "time" : {
+    "start" : 1578652801600,
+    "stop" : 1578652801714,
+    "duration" : 114
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7709bc834eef06",
+  "name" : "Verify a User able to add New Product - STATUS",
+  "time" : {
+    "start" : 1578652801475,
+    "stop" : 1578652801592,
+    "duration" : 117
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "477075808585b2ba",
+  "name" : "Verify getting All Products successful call - STATUS",
+  "time" : {
+    "start" : 1578652801444,
+    "stop" : 1578652801449,
+    "duration" : 5
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1166dfedab0902e6",
+  "name" : "Verify invalid deleting unsuccessful call - STATUS",
+  "time" : {
+    "start" : 1578652801425,
+    "stop" : 1578652801433,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfbd3676218eb3e",
+  "name" : "Verify a getting a single product successful call - STATUS",
+  "time" : {
+    "start" : 1578652801451,
+    "stop" : 1578652801458,
+    "duration" : 7
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

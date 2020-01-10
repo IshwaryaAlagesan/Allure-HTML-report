@@ -1,0 +1,79 @@
+{
+  "uid" : "e7709bc834eef06",
+  "name" : "Verify a User able to add New Product - STATUS",
+  "fullName" : "Post API Feature Testing:.Verify a User able to add New Product - STATUS",
+  "historyId" : "26cc79aa5a5cda83e6f4e666ed811e50",
+  "time" : {
+    "start" : 1578652801475,
+    "stop" : 1578652801592,
+    "duration" : 117
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Status code actual value 204 is not matching with Expected value 200. Please check the Service.",
+  "statusTrace" : "AssertionError [ERR_ASSERTION]: Status code actual value 204 is not matching with Expected value 200. Please check the Service.\n                    at Test.Scenario (/home/gk-ubuntu19/Documents/test/Ishu-APITest/tests/post_test.js:11:12)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Status code actual value 204 is not matching with Expected value 200. Please check the Service.",
+    "statusTrace" : "AssertionError [ERR_ASSERTION]: Status code actual value 204 is not matching with Expected value 200. Please check the Service.\n                    at Test.Scenario (/home/gk-ubuntu19/Documents/test/Ishu-APITest/tests/post_test.js:11:12)\n                    at process._tickCallback (internal/process/next_tick.js:68:7)",
+    "steps" : [ {
+      "name" : "I send post request \"/product\", {\"name\":\"New Test Product\",\"price\":9}",
+      "time" : {
+        "start" : 1578652801476,
+        "stop" : 1578652801592,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Post API Feature Testing:"
+  }, {
+    "name" : "testClass",
+    "value" : "Post API Feature Testing:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify a User able to add New Product - STATUS"
+  }, {
+    "name" : "package",
+    "value" : "Post API Feature Testing:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e7709bc834eef06.json",
+  "parameterValues" : [ ]
+}

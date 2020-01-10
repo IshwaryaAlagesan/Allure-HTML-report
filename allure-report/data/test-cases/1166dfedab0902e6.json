@@ -1,0 +1,71 @@
+{
+  "uid" : "1166dfedab0902e6",
+  "name" : "Verify invalid deleting unsuccessful call - STATUS",
+  "fullName" : "Delete API Feature Testing:.Verify invalid deleting unsuccessful call - STATUS",
+  "historyId" : "42fe5870b50b1cae75fa431e5e8e8486",
+  "time" : {
+    "start" : 1578652801425,
+    "stop" : 1578652801433,
+    "duration" : 8
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send delete request \"/product/10\"",
+      "time" : {
+        "start" : 1578652801426,
+        "stop" : 1578652801433,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Delete API Feature Testing:"
+  }, {
+    "name" : "testClass",
+    "value" : "Delete API Feature Testing:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify invalid deleting unsuccessful call - STATUS"
+  }, {
+    "name" : "package",
+    "value" : "Delete API Feature Testing:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1166dfedab0902e6.json",
+  "parameterValues" : [ ]
+}

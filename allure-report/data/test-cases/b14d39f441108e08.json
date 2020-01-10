@@ -1,0 +1,71 @@
+{
+  "uid" : "b14d39f441108e08",
+  "name" : "Verify a User could not add unsuccessful call - STATUS",
+  "fullName" : "Post API Feature Testing:.Verify a User could not add unsuccessful call - STATUS",
+  "historyId" : "76a5d4bcc85f04000e3ea1b05ba0d9f2",
+  "time" : {
+    "start" : 1578652801593,
+    "stop" : 1578652801598,
+    "duration" : 5
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "I send post request \"/product\", {\"name\":\"jai\",\"price\":\"aa\"}",
+      "time" : {
+        "start" : 1578652801593,
+        "stop" : 1578652801597,
+        "duration" : 4
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Post API Feature Testing:"
+  }, {
+    "name" : "testClass",
+    "value" : "Post API Feature Testing:"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify a User could not add unsuccessful call - STATUS"
+  }, {
+    "name" : "package",
+    "value" : "Post API Feature Testing:"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b14d39f441108e08.json",
+  "parameterValues" : [ ]
+}
